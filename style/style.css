@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #958ce8;
+  font-family: sans-serif;
+}
+
+label {
+  margin-top: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+header,
+bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 5vh;
+}
+
+header #item-menu,
+#item-home,
+#item-grayscale,
+#item-negative,
+#item-rgb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #21222d;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  background-color: #acd1fd;
+}
+
+#menu-home {
+  justify-content: center;
+  background-color: #958ce8;
+}
+
+#container-radio {
+  margin-top: 10px;
+  flex-direction: row;
+}
+
+input #image1,
+#grayscale-button,
+#negative-button,
+#channelsrgb-button {
+  width: 12vw;
+  height: 5vh;
+  margin-top: 10px;
+}
+
+main section {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  overflow-x: scroll;
+}
+
+section canvas {
+  width: 450px;
+  height: 800px;
+  background-color: aliceblue;
+}
+
+#frame0 {
+  margin-top: 15px;
+  width: 350px;
+  height: 600px;
+  background-color: aliceblue;
+}
