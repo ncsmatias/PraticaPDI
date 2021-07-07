@@ -9,7 +9,7 @@ document.getElementById('image1').onchange = onUpdateImage;
 document.getElementById('grayscale-button').onclick = grayscale;
 
 const item = document.getElementById("item-grayscale");
-item.style.backgroundColor = 'blue';
+item.style.backgroundColor = '#171C26';
 
 function onUpdateImage(event){
 	const file = event.target.files[0];

@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #958ce8;
+  background-color: #faf8eb;
   font-family: sans-serif;
 }
 
@@ -29,7 +29,7 @@ bottom {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #bebabf;
   width: 100vw;
   height: 5vh;
 }
@@ -44,9 +44,9 @@ header #item-menu,
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #21222d;
+  background-color: #76777b;
   text-decoration: none;
-  color: aliceblue;
+  color: #faf8eb;
 }
 
 main {
@@ -66,7 +66,7 @@ main menu {
   align-items: center;
   width: 25%;
   height: 100%;
-  background-color: #acd1fd;
+  background-color: #939598;
 }
 
 #menu-home {
@@ -77,6 +77,11 @@ main menu {
 #container-radio {
   margin-top: 10px;
   flex-direction: row;
+}
+
+input[type="file"] {
+  width: 115px;
+  color: transparent;
 }
 
 input #image1,
@@ -98,15 +103,34 @@ main section {
   overflow-x: scroll;
 }
 
+section p {
+  margin-top: 15px;
+}
+
 section canvas {
   width: 450px;
   height: 800px;
-  background-color: aliceblue;
+  border-style: solid;
+  border-color: #21222d;
+  background-color: #faf8eb;
 }
 
 #frame0 {
-  margin-top: 15px;
-  width: 350px;
-  height: 600px;
-  background-color: aliceblue;
+  width: 250px;
+  height: 500px;
+  border-style: solid;
+  border-color: #21222d;
+  background-color: #faf8eb;
+}
+
+#rgb-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#rgb-color-picker {
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-color: #21222d;
 }

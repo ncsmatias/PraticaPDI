@@ -15,7 +15,7 @@ document.getElementById('image1').onchange = onUpdateImage;
 document.getElementById('channelsrgb-button').onclick = rgb;
 
 const item = document.getElementById("item-rgb");
-item.style.backgroundColor = 'blue';
+item.style.backgroundColor = '#171C26';
 
 function onUpdateImage(event){
 	const file = event.target.files[0];
